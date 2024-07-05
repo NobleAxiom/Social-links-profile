@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [This is the solution URL to the public repo relase here](https://github.com/NobleAxiom/Social-links-profile/releases/tag/release)
+- Live Site URL: [this is a live site URL using vercel here](https://social-links-profile-nobleaxioms-projects.vercel.app/)
 
 ## My process
 
