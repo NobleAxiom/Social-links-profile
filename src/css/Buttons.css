@@ -1,0 +1,11 @@
+.card {
+  padding: 2em;
+}
+
+.button {
+  background-color: blue;
+  height: 40px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}

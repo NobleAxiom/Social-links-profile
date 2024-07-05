@@ -1,5 +1,5 @@
 import React from "react";
-import "../Buttons.css";
+import "../css/Buttons.css";
 
 const Buttons = () => {
   return (
@@ -13,31 +13,38 @@ const Buttons = () => {
         marginTop: "20px",
       }}
     >
-      <button onClick={() => (window.location.href = "https://www.google.com")}>
+      <button
+        className="button"
+        onClick={() => (window.location.href = "https://www.google.com")}
+      >
         Google
       </button>
       <button
+        className="button"
         onClick={() => (window.location.href = "https://www.facebook.com")}
       >
         Facebook
       </button>
       <button
+        className="button"
         onClick={() => (window.location.href = "https://www.twitter.com")}
       >
         Twitter
       </button>
       <button
+        className="button"
         onClick={() => (window.location.href = "https://www.linkedin.com")}
       >
         LinkedIn
       </button>
-      <button onClick={() => (window.location.href = "https://www.github.com")}>
+      <button
+        className="button"
+        onClick={() => (window.location.href = "https://www.github.com")}
+      >
         GitHub
       </button>
 
-      <p>
-        Edit <code>src/App.jsx</code> and save to test HMR
-      </p>
+      <p>Buttons link to external profile pages</p>
     </div>
   );
 };
