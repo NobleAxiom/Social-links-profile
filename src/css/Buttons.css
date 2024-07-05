@@ -36,4 +36,12 @@ button:focus-visible {
   .card {
     max-width: 375px;
   }
+  button:hover {
+    border-color: hsl(0, 0%, 100%);
+    background-color: hsl(75, 94%, 57%);
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
 }
