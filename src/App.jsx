@@ -14,9 +14,9 @@ function App() {
             <img src={avatarImage} className="avatar" alt="Avatar Image" />
           </a>
         </div>
-        <h1>Noble Axiom</h1>
-        <h2>Atlanta, United States</h2>
-        <h3>Fullstack Developer and advid reader</h3>
+        <p1>Noble Axiom</p1>
+        <p2>Atlanta, United States</p2>
+        <p3>Fullstack Developer and advid reader</p3>
 
         <Buttons />
 

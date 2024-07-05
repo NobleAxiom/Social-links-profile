@@ -30,22 +30,25 @@
 
 .read-intructions {
   line-height: 1;
-
+  font-size: 14px;
   color: #888;
 }
 
-h1 {
+p1 {
   font-size: 1.5em;
-  line-height: 0.1;
+  font-weight: 700;
+  line-height: 1;
 }
 
-h2 {
-  font-size: 1em;
-  color: hsl(75, 94%, 57%);
-  line-height: 0.1;
-}
-
-h3 {
+p2 {
   font-size: 14px;
-  line-height: 0.1;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  line-height: 3;
+}
+
+p3 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 4;
 }
