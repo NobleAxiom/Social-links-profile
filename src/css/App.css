@@ -35,17 +35,17 @@
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 0.1;
 }
 
 h2 {
-  font-size: 1.2em;
-  color: rgba(128, 255, 0, 0.495);
+  font-size: 1em;
+  color: hsl(75, 94%, 57%);
   line-height: 0.1;
 }
 
 h3 {
-  font-size: 1.1em;
+  font-size: 14px;
   line-height: 0.1;
 }

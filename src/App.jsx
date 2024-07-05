@@ -7,7 +7,10 @@ function App() {
     <>
       <div className="form">
         <div>
-          <a href="https://react.dev" target="_blank">
+          <a
+            href="https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ"
+            target="_blank"
+          >
             <img src={avatarImage} className="avatar" alt="Avatar Image" />
           </a>
         </div>
@@ -18,7 +21,8 @@ function App() {
         <Buttons />
 
         <p className="read-intructions">
-          Click avatar image to learn more about React used for this app
+          Click avatar image to learn more about FrontendMentor challenge used
+          for this app
         </p>
       </div>
     </>

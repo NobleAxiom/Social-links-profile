@@ -34,8 +34,6 @@ const Buttons = () => {
       <button onClick={() => (window.location.href = "https://www.github.com")}>
         GitHub
       </button>
-
-      <p>Buttons link to external social pages</p>
     </div>
   );
 };
