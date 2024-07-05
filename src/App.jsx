@@ -24,8 +24,30 @@ function App() {
           marginTop: "20px",
         }}
       >
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button
+          onClick={() => (window.location.href = "https://www.google.com")}
+        >
+          Google
+        </button>
+        <button
+          onClick={() => (window.location.href = "https://www.facebook.com")}
+        >
+          Facebook
+        </button>
+        <button
+          onClick={() => (window.location.href = "https://www.twitter.com")}
+        >
+          Twitter
+        </button>
+        <button
+          onClick={() => (window.location.href = "https://www.linkedin.com")}
+        >
+          LinkedIn
+        </button>
+        <button
+          onClick={() => (window.location.href = "https://www.github.com")}
+        >
+          GitHub
         </button>
 
         <p>
