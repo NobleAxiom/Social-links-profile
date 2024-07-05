@@ -19,5 +19,5 @@ body {
   place-items: center;
   min-width: 375px;
   min-height: 100vh;
-  background-color: #080808;
+  background-color: hsl(0, 0%, 8%);
 }
