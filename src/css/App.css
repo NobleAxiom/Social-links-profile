@@ -1,33 +1,25 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center;
   background-color: black;
 }
 
 .form {
-  width: 60vw;
-  min-height: 50vh;
+  width: 55vw;
+  min-width: 50vh;
+  min-height: 40vh;
   background-color: rgb(36, 36, 36);
   border-radius: 10px;
-  padding: 10px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-}
-
-.button {
-  background-color: blue;
-  height: 40px;
-  width: 100%;
-  color: white;
-  text-align: center;
 }
 
 .avatar {
-  height: 13.7em;
-  padding: 1.5em;
+  height: 10em;
+  padding: 0.7em;
   will-change: filter;
   transition: filter 300ms;
   border-radius: 100%;
@@ -36,10 +28,33 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 
-.card {
-  padding: 2em;
+.read-intructions {
+  line-height: 1;
+
+  color: #888;
 }
 
-.read-intructions {
-  color: #888;
+h1 {
+  font-size: 2em;
+  line-height: 0.1;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: aqua;
+  line-height: 0.1;
+}
+
+h3 {
+  font-size: 1.1em;
+  line-height: 0.1;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
 }

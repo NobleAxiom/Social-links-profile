@@ -10,41 +10,32 @@ const Buttons = () => {
         flexDirection: "column",
         alignItems: "center",
         gap: "10px",
-        marginTop: "20px",
+        marginTop: "2px",
       }}
     >
-      <button
-        className="button"
-        onClick={() => (window.location.href = "https://www.google.com")}
-      >
+      <button onClick={() => (window.location.href = "https://www.google.com")}>
         Google
       </button>
       <button
-        className="button"
         onClick={() => (window.location.href = "https://www.facebook.com")}
       >
         Facebook
       </button>
       <button
-        className="button"
         onClick={() => (window.location.href = "https://www.twitter.com")}
       >
         Twitter
       </button>
       <button
-        className="button"
         onClick={() => (window.location.href = "https://www.linkedin.com")}
       >
         LinkedIn
       </button>
-      <button
-        className="button"
-        onClick={() => (window.location.href = "https://www.github.com")}
-      >
+      <button onClick={() => (window.location.href = "https://www.github.com")}>
         GitHub
       </button>
 
-      <p>Buttons link to external profile pages</p>
+      <p>Buttons link to external social pages</p>
     </div>
   );
 };

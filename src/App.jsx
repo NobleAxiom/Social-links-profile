@@ -5,7 +5,7 @@ import Buttons from "./components/Buttons";
 function App() {
   return (
     <>
-      <form className="form">
+      <div className="form">
         <div>
           <a href="https://react.dev" target="_blank">
             <img src={avatarImage} className="avatar" alt="Avatar Image" />
@@ -20,7 +20,7 @@ function App() {
         <p className="read-intructions">
           Click avatar image to learn more about React used for this app
         </p>
-      </form>
+      </div>
     </>
   );
 }
