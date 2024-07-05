@@ -15,7 +15,7 @@ function App() {
 
       <Buttons />
 
-      <p className="read-the-docs">
+      <p className="read-intructions">
         Click on the Vite and React logos to learn more
       </p>
     </>

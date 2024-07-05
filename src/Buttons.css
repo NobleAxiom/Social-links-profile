@@ -5,13 +5,13 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
+.avatar {
+  height: 13.7em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
+.avatar:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
@@ -35,8 +35,4 @@
 
 .card {
   padding: 2em;
-}
-
-.read-intructions {
-  color: #888;
 }
